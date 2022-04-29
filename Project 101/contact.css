@@ -1,0 +1,348 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+body.active {
+  overflow: hidden;
+}
+
+.blank {
+  border: 1px solid whitesmoke;
+}
+
+/*--------------------------------- Super Contact ------------------------- */
+
+.super-contact {
+  width: 100%;
+  display: flex;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+}
+
+.form {
+  width: 65%;
+  padding-left: 13%;
+  padding-bottom: 2rem;
+}
+
+.form h1 {
+  font-family: "Prompt", sans-serif;
+  line-height: 2.1rem;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  color: rgb(19, 101, 255);
+}
+
+/*--------------------------------*/
+
+#form-data {
+  margin-top: 1.5rem;
+  margin-left: 0.3rem;
+}
+
+#form-data input {
+  border-width: 0px;
+  outline: none;
+  width: 23rem;
+  height: 2rem;
+  border-bottom: 2px solid black;
+  transition: 0.2s linear;
+  background-color: rgba(138, 179, 255, 0.281);
+  font-size: 1rem;
+}
+
+#form-data label {
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+  font-family: "Prompt", sans-serif;
+}
+
+#form-data textarea {
+  background-color: rgba(138, 179, 255, 0.281);
+  outline: none;
+  border: none;
+  margin-top: 0.3rem;
+  border-bottom: 2px solid black;
+  width: 23rem;
+}
+
+#form-data textarea:focus,
+#form-data input:focus {
+  border-bottom: 2px solid whitesmoke;
+}
+
+#form-data span {
+  color: black;
+}
+
+.submit-101 button {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  margin-top: 1rem;
+  background-color: rgb(19, 101, 255);
+  transition: 0.5s;
+}
+
+.submit-101 button:hover {
+  color: rgb(252, 252, 252);
+  background-color: rgb(0, 0, 0);
+}
+
+/*--------------------------------*/
+
+.foottt {
+  width: 35%;
+  padding-right: 2.5rem;
+  padding-top: 0.3rem;
+}
+
+.foottt h1 {
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1.3rem;
+  color: rgb(19, 101, 255);
+}
+
+.foottt #mail {
+  font-size: 1.4rem;
+  font-family: "Prompt", sans-serif;
+  margin-bottom: 0.7rem;
+  margin-left: 0.21rem;
+}
+
+.foottt #call {
+  font-size: 1.4rem;
+  font-family: "Prompt", sans-serif;
+  margin-bottom: 0.75rem;
+  margin-left: 0.21rem;
+}
+
+.foottt a {
+  color: rgb(0, 0, 0);
+}
+
+.foottt a:hover {
+  color: rgb(19, 101, 255);
+  transition-duration: 0.9s;
+}
+
+.foottt h3 {
+  font-family: "Prompt", sans-serif;
+  border-radius: 8px;
+  background-color: #26d366;
+  color: rgb(0, 0, 0);
+  width: 12.5rem;
+  padding: 10px 17px;
+  margin-left: 0.21rem;
+}
+
+.foottt h3:hover {
+  background-color: rgb(8, 7, 7);
+  color: #26d366;
+  transition-duration: 0.9s;
+}
+
+.social {
+  margin-top: 3rem;
+}
+
+.social h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1.3rem;
+  color: rgb(19, 101, 255);
+}
+
+.social #insta {
+  font-weight: 600;
+  margin-left: 0.21rem;
+}
+
+.social a {
+  font-size: 1.7rem;
+  margin-right: 2rem;
+  color: rgb(0, 0, 0);
+}
+
+.social a:hover {
+  color: rgb(19, 101, 255);
+  transition-duration: 0.8s;
+}
+
+/*-------------------------*/
+
+/*-------------------------------- Media Queries -----------------------*/
+
+@media screen and (max-width: 1100px) {
+  .form {
+    width: 60%;
+    padding-left: 10%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .form {
+    width: 65%;
+    padding-left: 6%;
+  }
+  .foottt {
+    padding-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .form {
+    width: 64%;
+    padding-left: 5%;
+  }
+  .foottt {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .super-contact {
+    display: block;
+    margin-top: 5rem;
+  }
+  .form {
+    width: 24rem;
+    padding-left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .foottt {
+    width: 24rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    padding-right: 0;
+    padding-left: 0.35rem;
+  }
+
+  .social {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .form h1 {
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .form {
+    width: 18.6rem;
+  }
+  .form h1 {
+    font-size: 2rem;
+  }
+  #form-data label {
+    font-size: 1rem;
+  }
+  #form-data input {
+    width: 18rem;
+  }
+  #form-data textarea {
+    width: 18rem;
+  }
+  .foottt {
+    width: 18.6rem;
+  }
+  .foottt h1,
+  .social h2 {
+    font-size: 1.5rem;
+  }
+  .foottt #mail,
+  .foottt #call {
+    font-size: 1.2rem;
+  }
+
+  .social a {
+    font-size: 1.5rem;
+  }
+  .foottt h3 {
+    font-size: 1rem;
+    width: 10.2rem;
+    padding: 7px 12px;
+  }
+  #unlink {
+    padding: 7px 0px 3px 0px;
+  }
+  #unlink p {
+    margin-top: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 369px) {
+  .form {
+    width: 16.5rem;
+  }
+  #form-data {
+    margin-left: 0.15rem;
+  }
+  #form-data input {
+    width: 16rem;
+  }
+  #form-data textarea {
+    width: 16rem;
+  }
+  .submit-101 button {
+    padding: 0.4rem 0.8rem;
+    font-size: 1.1rem;
+  }
+  .foottt {
+    width: 16.5rem;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .left {
+    width: 13rem;
+  }
+  .checkbtn {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .form {
+    width: 13.5rem;
+  }
+  #form-data input {
+    width: 13rem;
+  }
+  #form-data textarea {
+    width: 13rem;
+  }
+  .foottt {
+    width: 13.5rem;
+  }
+  .social a {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+}

@@ -1,0 +1,93 @@
+  <!-- <div class="believe3">
+        <div id="bel3-keys">
+          <ul>
+            <li>
+              <h3>Building Relationships</h3>
+            </li>
+            <li>
+              <h3>Finding solutions</h3>
+            </li>
+            <li>
+              <h3>Scaling what works</h3>
+            </li>
+            <li>
+              <h3>Celebrating Success</h3>
+            </li>
+            <li>
+              <h3>Maximizing Marketing ROI</h3>
+            </li>
+            <li>
+              <h3>Celebrating again</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> -->
+
+        <div class="super-matter">
+        <div class="matter-w">
+
+
+            <h1>Brand Matters to us</h1>
+
+            <div id="matt-line-1">
+
+                <div id="m-w-1">
+                    <div id="m-w-img">
+                        <img src="matter/brand-element.png">
+                    </div>
+                    <h2>Brand Element</h2>
+                    <p>Highlighting Brand element so people can identify and differntiate Brand</p>
+                </div>
+
+                <div id="m-w-2">
+                    <div id="m-w-img">
+                        <img src="matter/brand-value.png">
+                    </div>
+                    <h2>Brand Value</h2>
+                    <p>We help brand to increase their brand value by creating strong marketing strategy</p>
+                </div>
+
+                <div id="m-w-3">
+                    <div id="m-w-img">
+                        <img src="matter/prestige.png">
+                    </div>
+                    <h2>Prestige</h2>
+                    <p>Creating a positive image of a brand through our content which increases brands prestige</p>
+                </div>
+
+            </div>
+
+            <div id="matt-line-2">
+
+                <div id="m-w-4">
+                    <div id="m-w-img">
+                        <img src="matter/content.png">
+                    </div>
+                    <h2>Content</h2>
+                    <p>Our priority is to create quality and relevant content</p>
+                </div>
+
+                <div id="m-w-5">
+                    <div id="m-w-img">
+                        <img src="matter/result.png">
+                    </div>
+                    <h2>Results</h2>
+                    <p>Our priority is to create quality and relevant content</p>
+                </div>
+
+
+
+            </div>
+            <div id="matt-line-3">
+                <div id="m-w-6">
+                    <div id="m-w-img">
+                        <img src="matter/prestige.png">
+                    </div>
+                    <h2>Prestige</h2>
+                    <p>Creating a positive image of a brand through our content which increases brands prestige</p>
+                </div>
+            </div>
+        </div>
+
+    </div>

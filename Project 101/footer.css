@@ -1,0 +1,266 @@
+/*--------------------------------- Footer ------------------------- */
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.925);
+  padding: 3rem 0 2rem 0;
+
+  margin-top: 4rem;
+}
+
+/*------------------ foot 1 ------------------------------- */
+
+.foot1 {
+  width: 30rem;
+  font-family: "Prompt", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.foot1 h2 {
+  font-size: 2rem;
+  color: rgb(19, 101, 255);
+}
+
+.foot1 h3 {
+  margin-top: 0.5rem;
+  border-radius: 28px;
+  font-size: 1.59rem;
+  width: 13rem;
+  padding: 12px 14.5px;
+  background-color: #f5f5f5;
+  color: #000000;
+}
+
+.foot1 h3:hover {
+  transition-duration: 0.8s;
+  background-color: rgb(19, 101, 255);
+  color: rgb(241, 241, 241);
+}
+
+.social {
+  margin-top: 1rem;
+}
+
+.social #insta {
+  margin-left: 0.45rem;
+  font-weight: 600;
+}
+
+.social {
+  margin-top: 1.5rem;
+}
+
+.social a {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.social a:hover {
+  color: rgb(19, 101, 255);
+  transition-duration: 0.8s;
+}
+
+.social #twitter {
+  margin-right: 0rem;
+}
+
+/*----------------------- foot 2 -------------------------- */
+
+.foot2 {
+  width: 15.8rem;
+  font-family: "Prompt", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.foot2 a {
+  color: rgb(255, 255, 255);
+}
+
+.foot2 a:hover {
+  color: rgb(19, 101, 255);
+  transition-duration: 0.8s;
+}
+
+.foot2 #mail {
+  font-size: 1.4rem;
+  margin-top: 0.32rem;
+  margin-bottom: 1.5rem;
+}
+
+.foot2 #call {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.foot2 h3 {
+  font-family: "Prompt", sans-serif;
+  border-radius: 8px;
+  background-color: #26d366;
+  color: whitesmoke;
+  width: 12.5rem;
+  padding: 10px 17px;
+}
+
+.foot2 h3:hover {
+  background-color: whitesmoke;
+  color: #26d366;
+  transition-duration: 0.9s;
+}
+
+/*-------------------------*/
+
+@media screen and (max-width: 820px) {
+  .foot1 {
+    width: 25rem;
+  }
+  .foot2 {
+    width: 13.8rem;
+  }
+  .foot1 h2 {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  footer {
+    display: block;
+    padding: 2rem 0 1rem 0;
+  }
+  .foot1,
+  .foot2 {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .foot1 h2 {
+    width: max-content;
+    margin-right: none;
+  }
+  .foot1 h2,
+  .foot1 h3 {
+    display: block;
+    margin: auto;
+    padding-bottom: 0.55rem;
+  }
+  .social {
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.7rem;
+    padding-bottom: 0.6rem;
+  }
+  .social #insta {
+    margin-left: 0rem;
+  }
+  .foot2 #mail,
+  #call {
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .foot2 h3 {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .offer h2,
+  .believe h2 {
+    font-family: "Karla", sans-serif;
+  }
+  .foot1 h2 {
+    font-size: 1.5rem;
+  }
+  .foot1 h3 {
+    font-size: 1.2rem;
+    width: 10rem;
+    padding: 5px 11.6px;
+  }
+  .foot2 h3 {
+    font-size: 1rem;
+    width: 10rem;
+    padding: 5px 10.85px;
+  }
+  #unlink {
+    padding: 15px 0px 3px 0px;
+  }
+}
+
+@media screen and (max-width: 369px) {
+  .foot1 h2 {
+    font-size: 1.2rem;
+  }
+  .foot1 h3 {
+    font-size: 1rem;
+    width: 8.32rem;
+    padding: 3px 10px;
+  }
+  .foot1 .social a {
+    font-size: 1.2rem;
+  }
+  .foot2 #mail,
+  .foot2 #call {
+    font-size: 1rem;
+  }
+  .foot2 h3 {
+    font-size: 0.7rem;
+    width: 7rem;
+    padding: 3px 7px;
+  }
+  #unlink {
+    padding: 10px 0px 3px 0px;
+  }
+  #unlink a {
+    font-size: 1rem;
+  }
+  #unlink #terms,
+  #unlink #disclaimer {
+    margin-right: 1rem;
+  }
+  #unlink p {
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .foot1 h2 {
+    font-size: 1.1rem;
+  }
+  .foot1 h3 {
+    font-size: 0.8rem;
+    width: 6.4rem;
+    padding: 0px 6px;
+  }
+  .foot1 .social a {
+    font-size: 1rem;
+  }
+  .foot2 #mail,
+  .foot2 #call {
+    font-size: 0.8rem;
+  }
+  #unlink {
+    padding: 6px 0px 3px 0px;
+  }
+  #unlink a {
+    font-size: 0.8rem;
+  }
+  #unlink #terms,
+  #unlink #disclaimer {
+    margin-right: 0.8rem;
+  }
+  #unlink p {
+    margin-top: 0.3rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .foot1 h2 {
+    font-size: 0.8rem;
+  }
+}

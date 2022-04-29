@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body.poweron {
+  overflow: hidden;
+}
+
+/*------- Navigation bar -------*/
+
+nav {
+  width: 100%;
+  height: fit-content;
+  position: fixed;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition-duration: 0.8s;
+  box-shadow: 0px 6px 6px -6px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+/*----- List ------*/
+
+nav ul {
+  float: right;
+  margin-right: 6rem;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 1.3rem;
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  position: relative;
+  padding: 0.3rem 0.6rem;
+  /* top: 0.2rem; */
+  transition-duration: 0.8s;
+  letter-spacing: 0.1rem;
+}
+
+/*---------------------------- Home-fix ------------------*/
+
+.active {
+  color: rgb(19, 101, 255);
+}
+
+/*---------------------------Link transition--------------------*/
+
+nav ul li a:hover {
+  color: rgb(19, 101, 255);
+}
+
+/*--------------TryMeme logo nav bar ---------------*/
+
+.left {
+  width: 2.5rem;
+  margin: 0.3rem 0 0.3rem 6rem;
+  padding: 0.7rem 0;
+  transition-duration: 0.8s;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+}
+
+/*-----------------Checkbutton-----------------*/
+
+.checkbtn {
+  font-size: 1.5rem;
+  color: whitesmoke;
+  float: right;
+  margin-right: 1rem;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+/*--------------------------------*/
+
+/*------------------Media Queries--------------------------*/
+
+@media screen and (max-width: 768px) {
+  .logo-div h3 {
+    display: none;
+  }
+  .checkbtn {
+    display: block;
+    color: black;
+  }
+
+  nav ul {
+    position: fixed;
+    height: fit-content;
+    width: 100%;
+    background-color: white;
+    padding: 1.3rem 0;
+    top: 2.4rem;
+    left: -100%;
+    text-align: center;
+    margin-top: 0.6rem;
+    box-shadow: 0px 6px 6px -6px rgba(0, 0, 0, 0.5);
+  }
+  nav ul li {
+    display: block;
+    margin: 0;
+  }
+  nav ul li a {
+    font-size: 1.4rem;
+    line-height: 3rem;
+  }
+  a.active,
+  a:hover {
+    background: none;
+    color: rgb(19, 101, 255);
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  .left {
+    margin: 0.3rem 0 0.3rem 1rem;
+    width: 2rem;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .left {
+    width: 2rem;
+  }
+  .checkbtn {
+    font-size: 1.6rem;
+  }
+}

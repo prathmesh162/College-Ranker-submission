@@ -1,0 +1,1468 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Prompt", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: white;
+}
+
+/*------------------------------ TOP ------------------------------------------*/
+
+.top {
+  width: 100%;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+}
+
+.top-1 {
+  display: flex;
+  margin: 0rem auto 0 auto;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top-left {
+  width: 40%;
+}
+
+.top-1 h1 {
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+  line-height: 4.5rem;
+  word-spacing: 0.4rem;
+  text-transform: uppercase;
+  font-size: 4.8rem;
+  color: rgb(0, 0, 0);
+}
+
+.top-1 h1 span {
+  background-color: orangered; /* Fallback: Set a background color. */
+  background-image: linear-gradient(90deg, #22fbff, rgb(19, 101, 255));
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.top-1 h2 {
+  color: rgb(95, 95, 95);
+  margin-top: 1.8rem;
+  font-family: "Prompt", sans-serif;
+  line-height: 1.5rem;
+  font-weight: 400;
+  word-spacing: 0.1rem;
+  font-size: 1.4rem;
+}
+
+.top button {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: black;
+  margin: 2rem 0 0 0.06rem;
+  padding: 0.5rem 1.4rem 0.5rem 0.8rem;
+  border: none;
+  border-radius: 0 2rem 2rem 0;
+  background-image: linear-gradient(90deg, #22fbff, rgb(19, 101, 255));
+  cursor: pointer;
+  box-shadow: 0px 8px 8px -3px rgba(0, 0, 0, 0.5);
+}
+
+.top button:hover {
+  background-image: linear-gradient(90deg, #000000, rgb(5, 7, 10));
+  transition-duration: 1s;
+  color: #22f8ff;
+  box-shadow: 0px 8px 8px 2px rgba(34, 222, 255, 0.5);
+}
+
+.top img {
+  width: 20rem;
+  height: 20rem;
+  margin-top: 0.8rem;
+}
+
+.showcase {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+
+.showcase h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: black;
+  line-height: 2.5rem;
+}
+
+.showcase h3 {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  word-spacing: 0.2rem;
+  text-align: center;
+}
+
+.showcase h3 span {
+  font-size: 5rem;
+  font-family: "East Sea Dokdo", cursive;
+  color: rgb(19, 101, 255);
+  line-height: 3.5rem;
+  margin-left: 0.25rem;
+}
+
+/*--------------Memar -------------- */
+
+.memar {
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.memer-sub {
+  width: 80%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+#memar-text {
+  width: 45%;
+  height: fit-content;
+}
+
+#memar-text h2 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: rgb(19, 101, 255);
+  line-height: 2rem;
+}
+
+#memar-text ul {
+  margin-top: 1.1rem;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+#memar-text ul li {
+  margin-top: 0.5rem;
+}
+
+#memar-img {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+#memar-img img {
+  width: 35rem;
+}
+
+/*--------------------------------- Card-sec ------------------------- */
+
+.card-sec {
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+  background-color: rgb(241, 241, 241);
+  font-family: "Prompt", sans-serif;
+}
+
+.card-sec h2 {
+  margin-top: 0.8rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(16, 17, 20);
+}
+
+.card-sec li {
+  color: rgb(0, 0, 0);
+}
+
+/*-------------------Why MM---------------------- */
+
+#why-mm,
+#usp {
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  height: max-content;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.767);
+}
+
+#why-mm img,
+#usp img {
+  width: 7rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#why-mm ul,
+#usp ul {
+  width: 80%;
+  font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+  color: rgb(19, 101, 255);
+}
+
+#why-mm ul li,
+#usp ul li {
+  margin-top: 0.3rem;
+  list-style: square;
+}
+
+/*--------------------USP------------------ */
+
+/*-------------------------------- Key principles -----------------------*/
+
+.key {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.key h1 {
+  font-size: 2.3rem;
+  font-family: "Prompt", sans-serif;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.4rem;
+}
+
+.key h1:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  margin: auto;
+  margin-left: 0.5rem;
+}
+
+.key h2 {
+  font-size: 1.7rem;
+  font-family: "Prompt", sans-serif;
+  color: rgb(19, 101, 255);
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.key h3 {
+  font-size: 1.2rem;
+  font-family: "Prompt", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  margin-top: 0.3rem;
+}
+
+#sub-key {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  margin-left: 0.35rem;
+}
+
+#sub-key img {
+  width: 6rem;
+}
+
+#sub-key-un {
+  height: max-content;
+  margin-left: 2rem;
+}
+
+/*--------------------------------- Super Offer ------------------------------- */
+
+.super-off {
+  display: flex;
+  margin-top: 8rem;
+  padding: 5rem 0;
+  background-color: rgb(241, 241, 241);
+}
+
+/*--------------------------------- Offer ------------------------------- */
+
+.offer {
+  border-radius: 0 100px 100px 0;
+  width: 60%;
+  padding: 3rem 3rem 3rem 5.5rem;
+  background-color: black;
+}
+
+.offer h2 {
+  text-transform: uppercase;
+  color: rgb(19, 101, 255);
+  font-size: 3rem;
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+}
+
+#off-text {
+  margin-top: 1rem;
+}
+
+#off-text p {
+  color: white;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+#off-text p span {
+  color: rgb(255, 255, 255);
+}
+
+/*--------------------------------- Offer 2 ------------------------------- */
+
+.offer2 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#offer-keys {
+  height: fit-content;
+}
+
+#offer-keys h2 {
+  color: black;
+  font-size: 3rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+#offer-keys p {
+  color: rgb(19, 101, 255);
+  margin-top: 0.7rem;
+  font-size: 1.5rem;
+  font-family: "Prompt", sans-serif;
+  text-transform: uppercase;
+}
+
+#offer-keys p span {
+  font-size: 1.05rem;
+}
+
+/*--------------------------------- Temp - Inq ------------------------------- */
+
+.inq {
+  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  background-color: rgb(241, 241, 241);
+}
+
+#inq-text {
+  width: 80%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+#inq-text h2,
+#inq-text h3 {
+  font-family: "Karla", sans-serif;
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+}
+
+#inq-text h4 {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.7rem;
+  background-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  width: 12rem;
+  padding: 4px 15.5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(255, 255, 255);
+}
+
+#inq-text h4:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(19, 101, 255);
+  transition-duration: 0.8s;
+}
+
+/*--------------------------------- Super-Believe------------------------------- */
+
+.super-believe {
+  display: flex;
+  padding: 5rem 0 3rem 0;
+  background-color: rgb(241, 241, 241);
+}
+
+/*--------------------------------- Believe------------------------------- */
+
+.believe {
+  border-radius: 100px 0 0 100px;
+  width: 60%;
+  padding: 3rem 7rem 3rem 5rem;
+  background-color: black;
+  text-align: left;
+  margin-left: auto;
+}
+
+.believe h2 {
+  text-transform: uppercase;
+  color: rgb(19, 101, 255);
+  font-size: 3rem;
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+}
+
+#bel-text {
+  margin-top: 1rem;
+}
+
+#bel-text p {
+  color: white;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+#bel-text p span {
+  color: orangered;
+}
+
+/*---------------------------------------- Believe-2 ---------------------------------------------*/
+
+.believe2 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bel2-keys {
+  color: rgb(0, 0, 0);
+  padding-left: 1.3rem;
+}
+
+#bel2-keys ul li {
+  list-style-type: "▶  ";
+}
+
+#bel2-keys h3 {
+  color: rgb(0, 0, 0);
+  margin-top: 0.7rem;
+  font-size: 1.5rem;
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.believe3 {
+  display: none;
+}
+
+/*--------------------------------- All Marketing ------------------------- */
+
+.mar-all {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9rem;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.mar-all h2 {
+  font-size: 2.2rem;
+  font-family: "Krona One", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(19, 101, 255);
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.mar-all h2::before {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  margin: auto;
+  margin-right: 0.5rem;
+}
+
+.mar-all h2:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  margin: auto;
+  margin-left: 0.5rem;
+}
+
+#mar-l-1,
+#mar-l-2,
+#mar-l-3 {
+  display: flex;
+  margin-bottom: 4.2rem;
+  justify-content: space-around;
+}
+
+#mar-l-3 {
+  margin-bottom: 3rem;
+}
+
+#mar-sub {
+  text-align: center;
+  width: 18rem;
+}
+
+.mar-all img {
+  width: 12rem;
+}
+
+.mar-all h3 {
+  font-size: 1.5rem;
+  font-family: "Karla", sans-serif;
+  color: rgb(19, 101, 255);
+}
+
+.mar-all p {
+  font-size: 1.1rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  padding: 0 0.6rem;
+}
+
+/*--------------------------------- Blogg ------------------------- */
+
+.blogg {
+  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  margin-top: 0rem;
+}
+
+#blogg-text {
+  width: 80%;
+  text-align: center;
+}
+
+#blogg-text h2 {
+  font-family: "Karla", sans-serif;
+  font-size: 2.2rem;
+}
+
+#blogg-text h2 span a {
+  color: whitesmoke;
+  font-family: "Prompt", sans-serif;
+}
+
+#blogg-text h2 span a:hover {
+  color: orangered;
+  transition-duration: 0.8s;
+}
+
+/*------------------Media Queries--------------------------*/
+
+@media screen and (max-width: 1325px) {
+  #memar-img img {
+    width: 33rem;
+  }
+  #mvt-text {
+    padding-left: 0rem;
+    width: 60%;
+  }
+  #mvt-img {
+    width: 40%;
+  }
+  #mvt-img img {
+    width: 23rem;
+  }
+}
+
+@media screen and (max-width: 1275px) {
+  #memar-text {
+    width: 44%;
+  }
+  #memar-img {
+    width: 56%;
+  }
+  #mvt-img img {
+    width: 22.2rem;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .top {
+    padding-top: 9rem;
+  }
+  .memer-sub {
+    width: 90%;
+  }
+  #memar-img img {
+    width: 31rem;
+  }
+  #mvt-img img {
+    width: 21.7rem;
+  }
+  #why-mm,
+  #usp {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .top-1 {
+    width: 100%;
+  }
+  .memer-sub {
+    width: 98%;
+  }
+  #memar-img img {
+    width: 30rem;
+  }
+  #mvt-text {
+    width: 50%;
+  }
+  #mvt-img {
+    width: 44%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #memar-text {
+    width: 50%;
+  }
+  #memar-img {
+    width: 50%;
+  }
+  #memar-img img {
+    width: 27rem;
+  }
+  .memevertising {
+    width: 85%;
+  }
+
+  .offer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 4rem;
+    padding-left: 5rem;
+  }
+  .believe {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 4.5rem;
+    padding-left: 4rem;
+  }
+  .mar-all {
+    width: 75%;
+  }
+  #mar-l-1,
+  #mar-l-2,
+  #mar-l-3 {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #memar-text {
+    width: 55%;
+  }
+  #memar-img {
+    width: 45%;
+  }
+  #memar-img img {
+    width: 25rem;
+  }
+  .memevertising {
+    width: 90%;
+  }
+
+  .key {
+    width: 59%;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  #memar-img img {
+    width: 23rem;
+  }
+  .top {
+    padding-top: 8rem;
+  }
+  .offer {
+    width: 65%;
+  }
+  .offer2 {
+    width: 35%;
+  }
+  #bel2-keys h3 {
+    padding-right: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .top img {
+    width: 17rem;
+    height: 17rem;
+  }
+  .top-1 h1 {
+    font-size: 4rem;
+  }
+  .top-1 h2 {
+    font-size: 1.2rem;
+  }
+  .top button {
+    font-size: 1.1rem;
+    padding: 0.4rem 1.2rem 0.4rem 0.7rem;
+  }
+
+  .showcase h2 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  .showcase h3 {
+    font-size: 1.3rem;
+  }
+
+  .showcase h3 span {
+    font-size: 4rem;
+    line-height: 2.2rem;
+  }
+  .memar {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  .memer-sub {
+    flex-direction: column;
+  }
+  #memar-text {
+    width: 96%;
+    margin-bottom: 1rem;
+  }
+  #memar-text h2 {
+    text-align: center;
+  }
+  #memar-img {
+    margin-top: 1.5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  #memar-img img {
+    width: 70vw;
+    margin-bottom: 4rem;
+  }
+  .card-sec {
+    padding-top: 2rem;
+  }
+
+  .memevertising {
+    display: block;
+  }
+  #mvt-text {
+    width: 100%;
+  }
+  #mvt-text h2 {
+    text-align: center;
+  }
+  #mvt-img {
+    display: none;
+  }
+  #mvt-img2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  #mvt-img2 img {
+    width: 89vw;
+  }
+  #why-mm,
+  #usp {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  #why-mm img,
+  #usp img {
+    width: 6rem;
+  }
+  .card-sec h2 {
+    font-size: 1.3rem;
+  }
+  #why-mm ul,
+  #usp ul {
+    font-size: 1.1rem;
+  }
+  .key {
+    margin-top: 4rem;
+  }
+
+  .key h1 {
+    font-size: 2rem;
+  }
+  .super-off {
+    margin-top: 5rem;
+  }
+  .offer {
+    width: 60%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 3rem;
+    padding-left: 4rem;
+  }
+  .offer2 {
+    margin-top: 2rem;
+    width: 40%;
+  }
+  #offer-keys h2 {
+    font-size: 2.7rem;
+  }
+  #offer-keys p {
+    font-size: 1.3rem;
+  }
+  .believe {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 3.5rem;
+  }
+  #bel2-keys {
+    margin-left: 0.5rem;
+  }
+  .mar-all {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .top {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  }
+  .top img {
+    width: 16rem;
+    height: 16rem;
+    margin-top: 0.5rem;
+  }
+  .top-1 {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+  }
+  .top-left {
+    width: 90%;
+    margin-bottom: 3rem;
+  }
+  .top-1 h1 {
+    font-size: 3rem;
+    line-height: 3.3rem;
+  }
+  .top-1 h2 {
+    line-height: 1.4rem;
+    word-spacing: 0.2rem;
+    margin-top: 1.3rem;
+  }
+
+  .top button {
+    margin: 1.5rem 0 0 0.06rem;
+  }
+  .super-off {
+    display: block;
+  }
+  .offer {
+    width: 95%;
+  }
+  .offer2 {
+    width: 100%;
+  }
+  .super-believe {
+    flex-direction: column-reverse;
+  }
+  .believe {
+    width: 95%;
+  }
+
+  .believe2 {
+    margin: 2rem auto;
+
+    width: 80%;
+  }
+  .mar-all {
+    width: 85%;
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .showcase {
+    width: 90%;
+  }
+  .showcase h2 {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+  }
+
+  .showcase h3 span {
+    font-size: 3.5rem;
+    line-height: 2.2rem;
+  }
+
+  #memar-img {
+    margin-top: 0.8rem;
+  }
+  #memar-img img {
+    width: 35rem;
+  }
+
+  #memar-text h2 {
+    font-size: 2rem;
+  }
+
+  #memar-text ul {
+    font-size: 1.1rem;
+  }
+
+  #bel2-keys h3 {
+    font-size: 1.3rem;
+  }
+  .inq {
+    padding: 2rem 0;
+  }
+  #inq-text h2,
+  #inq-text h3 {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #inq-text h4 {
+    font-size: 1.3rem;
+    width: 10rem;
+    margin-top: 1.1rem;
+  }
+
+  #mar-l-1,
+  #mar-l-2,
+  #mar-l-3 {
+    display: block;
+    margin-top: 0rem;
+  }
+  #mar-sub {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+  }
+  .mar-all img {
+    width: 10rem;
+  }
+
+  .mar-all h3 {
+    font-size: 1.3rem;
+  }
+
+  .mar-all p {
+    font-size: 1rem;
+  }
+  .key {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .top-left {
+    width: 100%;
+  }
+  .top-1 h1 {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+  .top-1 h2 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+  .top button {
+    font-size: 1.2rem;
+    margin: 1rem 0 0 0.06rem;
+    padding: 0.2rem 1rem 0.2rem 0.6rem;
+  }
+  .top img {
+    width: 14rem;
+    height: 14rem;
+    margin-top: 0rem;
+  }
+  .showcase {
+    width: 90%;
+  }
+  #memar-img img {
+    width: 28rem;
+  }
+  /*Card-sec*/
+  .card-sec {
+    display: block;
+  }
+  #why-mm,
+  #usp {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #why-mm {
+    margin-bottom: 2rem;
+  }
+  #why-mm ul,
+  #usp ul {
+    margin-bottom: 0.6rem;
+  }
+
+  .key {
+    width: 86%;
+  }
+  .key h1 {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+  .key h2 {
+    font-size: 1.4rem;
+  }
+  .key h3 {
+    font-size: 1rem;
+  }
+  .offer h2 {
+    font-size: 2.7rem;
+  }
+  #off-text p {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+  }
+  .super-believe {
+    padding-bottom: 1rem;
+  }
+
+  .believe h2 {
+    font-size: 2.7rem;
+  }
+  #bel-text p {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+  }
+  #bel2-keys h3 {
+    font-size: 1.2rem;
+  }
+  .mar-all h2 {
+    margin-bottom: 2rem;
+  }
+  #mar-l-1,
+  #mar-l-2,
+  #mar-l-3 {
+    display: block;
+    margin-top: 0;
+  }
+  #mar-sub {
+    margin-bottom: 2rem;
+  }
+  #blogg-text h2 {
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .top {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  }
+  .top-1 {
+    width: 90%;
+  }
+  .showcase {
+    width: 95%;
+    padding-bottom: 3rem;
+  }
+  .showcase h2 {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+  .showcase h3 {
+    font-size: 1rem;
+  }
+  .showcase h3 span {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+  .memar {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  #memar-text h2 {
+    font-size: 1.6rem;
+  }
+  #memar-text ul {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  #memar-text ul li {
+    margin-top: 0.3rem;
+  }
+  #memar-img {
+    margin-top: 0.1rem;
+  }
+  #memar-img img {
+    width: 93vw;
+  }
+  .memevertising {
+    width: 96%;
+  }
+  #mvt-text ul {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+  #mvt-text h2 {
+    font-size: 2.3rem;
+  }
+  #mvt-text ul li {
+    margin-top: 0.3rem;
+  }
+  #mvt-img2 {
+    display: none;
+  }
+  #mvt-img3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  #mvt-img3 img {
+    width: 90vw;
+  }
+  #why-mm img,
+  #usp img {
+    width: 5rem;
+  }
+  .card-sec {
+    padding-bottom: 2.5rem;
+  }
+  .card-sec h2 {
+    font-size: 1.1rem;
+  }
+  #why-mm ul,
+  #usp ul {
+    font-size: 1rem;
+  }
+
+  .key h1 {
+    font-size: 1.8rem;
+  }
+  .key h2 {
+    font-size: 1.5rem;
+  }
+  .key h3 {
+    font-size: 1.1rem;
+    margin-top: 0.2rem;
+    line-height: 1.3rem;
+  }
+  #sub-key {
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+  #sub-key img {
+    width: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #sub-key-un {
+    text-align: center;
+    margin-left: 0rem;
+    margin-top: 0.3rem;
+  }
+  .super-off {
+    margin-top: 4rem;
+  }
+
+  #blogg-text h2 {
+    font-size: 1.6rem;
+  }
+  .offer {
+    width: 97%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
+  }
+  .offer h2 {
+    font-size: 2.4rem;
+  }
+  #off-text p {
+    font-size: 1.1rem;
+  }
+  #inq-text h2,
+  #inq-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #inq-text h4 {
+    font-size: 1.1rem;
+    width: 9rem;
+    margin-top: 1.1rem;
+  }
+
+  .believe {
+    width: 97%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 1rem;
+    padding-left: 3rem;
+  }
+  .believe2 {
+    margin: 2rem auto;
+    width: 90%;
+  }
+  .believe h2 {
+    font-size: 2.4rem;
+  }
+  #bel-text p {
+    font-size: 1.1rem;
+  }
+  #bel2-keys h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 369px) {
+  .top-1 h1 {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+  }
+  .top-1 h2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .top button {
+    font-size: 1rem;
+  }
+  .top img {
+    width: 12rem;
+    height: 12rem;
+    margin-top: 0rem;
+  }
+
+  .showcase {
+    width: 98%;
+  }
+
+  #memar-text h2 {
+    font-size: 1.6rem;
+  }
+  #memar-text ul {
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  #memar-text ul li {
+    margin-top: 0.2rem;
+  }
+  #mvt-text ul {
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+  }
+  #mvt-text h2 {
+    font-size: 2.1rem;
+  }
+  #mvt-text ul li {
+    margin-top: 0.2rem;
+  }
+
+  .mar-all h2 {
+    font-size: 1.8rem;
+  }
+  #mar-sub {
+    width: 14rem;
+  }
+  .mar-all img {
+    width: 9rem;
+  }
+  .believe2 {
+    margin: 2rem auto 1rem auto;
+    width: 100%;
+    padding-left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .showcase h2 {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+  }
+  .showcase h3 {
+    font-size: 0.8rem;
+  }
+  .showcase h3 span {
+    font-size: 2.1rem;
+    line-height: 1.5rem;
+  }
+  .memar {
+    width: 100%;
+  }
+  .memevertising {
+    width: 100%;
+  }
+  #why-mm img,
+  #usp img {
+    width: 4rem;
+  }
+  .card-sec h2 {
+    font-size: 1rem;
+  }
+  #why-mm ul,
+  #usp ul {
+    font-size: 0.8rem;
+  }
+  .key {
+    border-top: 1px solid whitesmoke;
+    padding-top: 1rem;
+  }
+  .key h1 {
+    display: block;
+    text-align: center;
+  }
+  .mar-all img {
+    width: 8rem;
+  }
+  .mar-all h2 {
+    font-size: 1.5rem;
+  }
+
+  #mar-sub {
+    width: 12rem;
+  }
+  .super-off {
+    margin-top: 6rem;
+    padding: 0 0 2rem 0;
+  }
+  .offer {
+    width: 100%;
+    border-radius: 0;
+    padding: 0.5rem;
+  }
+
+  #offer-keys h2 {
+    font-size: 1.8rem;
+  }
+  .super-believe {
+    padding-top: 2.7rem;
+  }
+  .believe {
+    width: 100%;
+    border-radius: 0;
+    padding: 0.5rem;
+  }
+  #bel2-keys h3 {
+    font-size: 1rem;
+  }
+  #inq-text h2,
+  #inq-text h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.2rem;
+  }
+
+  #inq-text h4 {
+    font-size: 1rem;
+    width: 8rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .top-1 h1 {
+    font-size: 2.3rem;
+  }
+  .top img {
+    width: 11rem;
+    height: 11rem;
+  }
+  .top-1 h2 {
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+  }
+  #memar-text ul {
+    margin-top: 0.5rem;
+  }
+
+  #memar-text ul li {
+    margin-top: 0.1rem;
+  }
+  #mvt-text ul {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+  #mvt-text h2 {
+    font-size: 1.5rem;
+  }
+  #mvt-text ul li {
+    margin-top: 0.2rem;
+  }
+  /*Card-sec*/
+  #why-mm {
+    width: 90%;
+  }
+  #why-mm ul {
+    width: 95%;
+  }
+  #usp {
+    width: 90%;
+  }
+  #usp ul {
+    width: 95%;
+  }
+  .key h1 {
+    font-size: 1.5rem;
+  }
+  .key h2 {
+    font-size: 1.2rem;
+  }
+  .key h3 {
+    font-size: 0.9rem;
+  }
+
+  #mar-sub {
+    width: 11rem;
+  }
+}
